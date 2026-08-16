@@ -439,12 +439,6 @@ sudo iptables -D FORWARD 1
 
 This lab built a working SOC pipeline end-to-end: telemetry collection from Windows and Linux endpoints via Sysmon, full event archiving, file integrity monitoring, custom detection rules, security dashboards, and automated response to a live brute-force attack. It demonstrates the core SOC analyst workflow — ingest, detect, investigate, and respond — in a fully self-contained home environment.
 
-Possible next steps:
-
-- Add a dedicated attacker VM (e.g. Kali Linux) to generate more realistic, varied attack traffic.
-- Map alerts to MITRE ATT&CK techniques more broadly using Wazuh's built-in MITRE module.
-- Forward Wazuh alerts to a SOAR playbook (e.g. Shuffle) for automated ticketing or notification.
-- Expand FIM and custom rules to cover additional high-value assets and attack techniques.
 
 ## 13. References
 
